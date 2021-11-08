@@ -188,6 +188,13 @@ h3, h4, h5, h6 {
 	margin: 0 0 1em 0;
 }
 
+h3 {
+	color: #000000;
+	font-weight: 600;
+	line-height: 1.65;
+	margin: 0 0 1em 0;
+}
+
 h1, h2 {
 	color: #ffffff;
 	font-weight: 600;
