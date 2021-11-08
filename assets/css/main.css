@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -115,7 +109,7 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
+body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
@@ -123,6 +117,7 @@ input, select, textarea {
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -160,11 +155,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ff0000 !important;
+			color: #000000 !important;
 		}
 
 		a:active {
-			color: #ff0000 !important;
+			color: #ffffff !important;
 		}
 
 	strong, b {
@@ -3798,36 +3793,37 @@ h1, h2 {
 
 /* Menu */
 
-	#menu {
-		-moz-transition: -moz-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
-		-webkit-transition: -webkit-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
-		-ms-transition: -ms-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
-		transition: transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		pointer-events: none;
-		box-shadow: none;
-		height: 100%;
-		left: 0;
-		opacity: 0;
-		overflow: hidden;
-		padding: 3em 2em;
-		position: fixed;
-		top: 0;
-		visibility: hidden;
-		width: 100%;
-		z-index: 10002;
-	}
+#menu {
+	-moz-transition: -moz-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+	-webkit-transition: -webkit-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+	-ms-transition: -ms-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+	transition: transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	pointer-events: none;
+	background: rgba(255, 0, 0, 0.5);
+	box-shadow: none;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+	padding: 3em 2em;
+	position: fixed;
+	top: 0;
+	visibility: hidden;
+	width: 100%;
+	z-index: 10002;
+}
 
 		#menu .inner {
 			-moz-transition: -moz-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
